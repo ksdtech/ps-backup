@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Put this file in /etc/periodic/daily 
+# chown root:wheel 810.psbackup
+# chmod 755 810.psbackup
+
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+cd /Users/Shared/ps-backup
+/Users/Shared/ps-backup/application.rb
